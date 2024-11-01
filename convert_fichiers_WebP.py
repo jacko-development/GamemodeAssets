@@ -18,6 +18,6 @@ def convert_png_to_webp(input_folder):
             print(f"Converted and deleted: {filename} -> {os.path.basename(webp_path)}")
 
 # Exemple d'utilisation
-input_folder = 'C:\\Users\\nathanael\\Desktop\\GamemodeAssets\\clothing\\male\\bags'
+input_folder = 'C:\\Users\\nathanael\\Desktop\\GamemodeAssets\\vehicles'
 convert_png_to_webp(input_folder)
 
